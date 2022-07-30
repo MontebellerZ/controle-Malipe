@@ -1,0 +1,25 @@
+{
+    "name": "controle_malipe_back",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.20.0",
+        "crypto": "^1.0.1",
+        "express": "^4.18.1",
+        "fs": "0.0.1-security",
+        "jsonwebtoken": "^8.5.1",
+        "mysql": "^2.18.1",
+        "nodemailer": "^6.7.7",
+        "nodemon": "^2.0.19"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js",
+        "ndm": "nodemon index.js"
+    },
+    "author": "",
+    "license": "ISC"
+}
